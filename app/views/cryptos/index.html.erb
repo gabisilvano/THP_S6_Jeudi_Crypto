@@ -1,0 +1,51 @@
+
+<body>
+<h1>Cryptos</h1>
+
+<form>
+
+
+  Name: <input name="name" type="text" class="form-control" id="exampleFormControlInput1" placeholder="Crypto" style="width: 400px;"><br><br>
+        <%= button_tag t('btn.submit'), class: 'btn btn-brand-color', type: 'submit' %>
+</form>
+<h3>
+  <% if @find != nil %>
+  <strong>Name:</strong><br>
+  <%= @find.name %><br><br>
+
+
+
+  <strong>Value:</strong><br>
+  U$<%= @find.value %><br>
+<% end %>
+
+
+</h3>
+<br>
+<br>
+<h3>See all the Cryptos:</h3>
+
+<table>
+  <thead>
+    <tr>
+      <th>Name</th>
+      <!--<th>Value</th>-->
+      
+    </tr>
+  </thead>
+ 
+  <tbody>
+    <% @all.each do |crypto| %>
+      
+     <div class="d-inline-flex p-2 bd-highlight"><%= crypto.name %></div>
+         
+    <% end %>
+   
+  </tbody>
+
+</table>
+
+<br>
+</body>
+
+
