@@ -1,24 +1,32 @@
-# README
+<h1>THP_S06_Jeudi</h1>
+<br />
+<br />
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+Repo project Backend
+<br />
+Link Heroku: https://dashboard.heroku.com/apps/backend-gabisilvano
 
-Things you may want to cover:
+https://backend-gabisilvano.herokuapp.com/
 
-* Ruby version
+<h2>Team-Programing :</h2>
+<br />
+<br />
+@farida <br />
+@Nicolas B <br />
+@Gabrielle Silvano <br />
+@lise <br />
+@Matcha <br />
+@Nico Hermet <br />
+@Salah <br />
 
-* System dependencies
+<br />
+<br />
 
-* Configuration
+Do `Bundle Install` to install all gems
+<br />
+<br />
 
-* Database creation
+<h2>Console</h2>
+<br />
 
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
+Use `rails console` for view all the contents of database.
